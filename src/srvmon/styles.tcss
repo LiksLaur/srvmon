@@ -1,0 +1,106 @@
+Screen {
+    background: #101418;
+    color: #eef2f6;
+}
+
+Header {
+    background: #1e2933;
+}
+
+Footer {
+    background: #1e2933;
+}
+
+#main {
+    height: 100%;
+}
+
+#summary {
+    height: 5;
+    padding: 1 2;
+    background: #17202a;
+    border-bottom: solid #314052;
+}
+
+#summary-grid {
+    grid-size: 4 2;
+    grid-gutter: 1 2;
+    height: 3;
+}
+
+TabbedContent {
+    height: 1fr;
+}
+
+TabPane {
+    padding: 1;
+}
+
+#live-grid {
+    grid-size: 2 3;
+    grid-gutter: 1 2;
+    height: 1fr;
+}
+
+#live-title {
+    height: 1;
+    content-align: center middle;
+    color: #a8d8ff;
+}
+
+#live-alert-banner {
+    height: 4;
+    margin: 1 0;
+    padding: 0 2;
+    background: #151c24;
+    border: solid #35475c;
+    content-align: left middle;
+}
+
+.live-card {
+    height: 100%;
+    min-height: 6;
+    padding: 1 2;
+    background: #151c24;
+    border: solid #35475c;
+}
+
+DataTable {
+    height: 1fr;
+    margin-bottom: 1;
+}
+
+#cpu-panel {
+    layout: grid;
+    grid-size: 2 1;
+    grid-gutter: 1 2;
+}
+
+#memory-panel,
+#disk-panel,
+#network-panel,
+#processes-panel {
+    layout: grid;
+    grid-size: 2 1;
+    grid-gutter: 1 2;
+}
+
+#extras-panel {
+    layout: grid;
+    grid-size: 3 1;
+    grid-gutter: 1 2;
+}
+
+#process-summary {
+    height: 10;
+}
+
+#core-bars {
+    height: 1fr;
+    overflow-y: auto;
+}
+
+ProgressBar {
+    height: 1;
+    margin-bottom: 1;
+}
